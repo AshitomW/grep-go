@@ -1,7 +1,6 @@
 # grep-go
 
-A concurrent file searching tool written in Go, similar to the classic Unix `grep` utility but with parallel processing capabilities.
-
+A concurrent file searching tool written in Go, similar to the classic Unix `grep` utility  with parallel processing.
 ## Overview
 
 `grep-go` searches for a specified text pattern recursively through files in a directory. Uses Go's concurrency features to perform searches in parallel.
